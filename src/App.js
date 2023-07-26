@@ -17,30 +17,6 @@ function App() {
       });
   }, []);
 
-  // useEffect(() => {
-  //   // Make a GET request to the SpaceX Flights API
-  //   axios
-  //     .get("https://api.spacexdata.com/v2/launches")
-  //     .then((res) => {
-  //       // Set the flights state with the response data
-  //       setFlights(res.data);
-  //     })
-  //     .catch((err) => {
-  //       // Handle any errors
-  //       console.error(err);
-  //     });
-  // }, []);
-
-  // const flights = [
-  //   {
-  //     flight_number: 23,
-  //     mission_name: "sdf",
-  //   },
-  //   {
-  //     flight_number: 342,
-  //     mission_name: "asfewg",
-  //   },
-  // ];
   return (
     <ul className="flights-list">
       {flights
